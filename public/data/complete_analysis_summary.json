@@ -1,0 +1,67 @@
+{
+  "total_asvs": 211,
+  "total_reads": 102380,
+  "assigned_asvs": 0,
+  "assignment_rate": 0.0,
+  "novel_candidates": 211,
+  "high_priority_novel": 0,
+  "kingdom_distribution": {},
+  "mean_richness": 211.0,
+  "shannon_diversity": 4.64319552237989,
+  "simpson_diversity": 0.9856848442886608,
+  "abundant_novel": 147,
+  "widespread_novel": 0,
+  "clustered_novel": 0,
+  "top_asvs": [
+    {
+      "asv_id": "ASV1",
+      "abundance": 3980,
+      "assigned": false
+    },
+    {
+      "asv_id": "ASV2",
+      "abundance": 3871,
+      "assigned": false
+    },
+    {
+      "asv_id": "ASV3",
+      "abundance": 3316,
+      "assigned": false
+    },
+    {
+      "asv_id": "ASV4",
+      "abundance": 2901,
+      "assigned": false
+    },
+    {
+      "asv_id": "ASV5",
+      "abundance": 2832,
+      "assigned": false
+    },
+    {
+      "asv_id": "ASV6",
+      "abundance": 2686,
+      "assigned": false
+    },
+    {
+      "asv_id": "ASV7",
+      "abundance": 2618,
+      "assigned": false
+    },
+    {
+      "asv_id": "ASV8",
+      "abundance": 2336,
+      "assigned": false
+    },
+    {
+      "asv_id": "ASV9",
+      "abundance": 2185,
+      "assigned": false
+    },
+    {
+      "asv_id": "ASV10",
+      "abundance": 2096,
+      "assigned": false
+    }
+  ]
+}

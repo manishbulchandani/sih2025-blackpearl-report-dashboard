@@ -1,0 +1,12 @@
+{
+  "total_ASVs": 211,
+  "total_reads_final": 102380,
+  "mean_reads_per_ASV": 485.21,
+  "read_retention_rate": 51.96,
+  "chimera_proportion": 3.78,
+  "sequence_lengths": {
+    "min": 353,
+    "max": 453,
+    "median": 424
+  }
+}

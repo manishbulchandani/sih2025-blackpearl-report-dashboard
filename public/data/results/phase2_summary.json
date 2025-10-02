@@ -1,0 +1,20 @@
+{
+  "asv_count": 211,
+  "total_reads": 102380,
+  "retention_rate": 51.96,
+  "chimera_rate": 3.78,
+  "quality_flags": [],
+  "amplicon_type": "consistent_amplicon_lengths",
+  "length_stats": {
+    "mean": 424.0,
+    "std": 14.079467842676687,
+    "cv": 0.03320629208178464
+  },
+  "abundance_stats": {
+    "singletons": 0,
+    "low_abundance": 10,
+    "medium_abundance": 53,
+    "high_abundance": 147
+  },
+  "ready_for_phase3": true
+}

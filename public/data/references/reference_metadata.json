@@ -1,0 +1,10 @@
+{
+  "sequence_ids": [
+    "Metazoa_ref1",
+    "Stramenopiles_ref1",
+    "Alveolata_ref1",
+    "Rhizaria_ref1"
+  ],
+  "feature_dimensions": 10784,
+  "sequence_count": 4
+}

@@ -1,0 +1,48 @@
+{
+  "r1_stats": {
+    "read_count": 10000,
+    "mean_length": 301.0,
+    "min_length": 301,
+    "max_length": 301,
+    "length_std": 0.0,
+    "mean_quality": 36.264273089701,
+    "q20_rate": 0.9713106312292359,
+    "q30_rate": 0.9339963455149501,
+    "gc_content": 0.4674009966777409,
+    "length_distribution": {
+      "q25": 301,
+      "median": 301,
+      "q75": 301
+    }
+  },
+  "r2_stats": {
+    "read_count": 10000,
+    "mean_length": 301.0,
+    "min_length": 301,
+    "max_length": 301,
+    "length_std": 0.0,
+    "mean_quality": 34.4068342192691,
+    "q20_rate": 0.9310976744186047,
+    "q30_rate": 0.8539681063122924,
+    "gc_content": 0.42985980066445184,
+    "length_distribution": {
+      "q25": 301,
+      "median": 301,
+      "q75": 301
+    }
+  },
+  "automated_decisions": {
+    "data_type": "amplicon",
+    "expected_marker": "18S_or_COI",
+    "quality_threshold": 25,
+    "quality_comment": "High quality data - using stringent Q25 threshold",
+    "min_length": 210,
+    "truncLen_r1": 255,
+    "truncLen_r2": 255,
+    "maxEE": [
+      2,
+      2
+    ]
+  },
+  "timestamp": "$(date -Iseconds)"
+}

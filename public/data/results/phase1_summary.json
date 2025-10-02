@@ -1,0 +1,10 @@
+{
+  "reads_retained": 394084,
+  "retention_rate": 95.25425531400616,
+  "mean_length_r1": 298,
+  "mean_length_r2": 294,
+  "q20_rate": 0.969349,
+  "q30_rate": 0.912836,
+  "quality_flags": [],
+  "ready_for_dada2": true
+}

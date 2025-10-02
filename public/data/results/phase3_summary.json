@@ -1,0 +1,67 @@
+{
+  "total_asvs_analyzed": 211,
+  "alpha_diversity_summary": {
+    "mean_richness": 211.0,
+    "mean_shannon": 4.64319552237989,
+    "mean_simpson": 0.9856848442886609
+  },
+  "abundance_distribution": {
+    "singletons": 0,
+    "rare_asvs": 11,
+    "common_asvs": 147
+  },
+  "novel_candidates_ecological": 0,
+  "top_abundant_asvs": [
+    {
+      "asv_id": "ASV1",
+      "total_reads": 3980,
+      "taxonomic_assignment": "unassigned"
+    },
+    {
+      "asv_id": "ASV2",
+      "total_reads": 3871,
+      "taxonomic_assignment": "unassigned"
+    },
+    {
+      "asv_id": "ASV3",
+      "total_reads": 3316,
+      "taxonomic_assignment": "unassigned"
+    },
+    {
+      "asv_id": "ASV4",
+      "total_reads": 2901,
+      "taxonomic_assignment": "unassigned"
+    },
+    {
+      "asv_id": "ASV5",
+      "total_reads": 2832,
+      "taxonomic_assignment": "unassigned"
+    },
+    {
+      "asv_id": "ASV6",
+      "total_reads": 2686,
+      "taxonomic_assignment": "unassigned"
+    },
+    {
+      "asv_id": "ASV7",
+      "total_reads": 2618,
+      "taxonomic_assignment": "unassigned"
+    },
+    {
+      "asv_id": "ASV8",
+      "total_reads": 2336,
+      "taxonomic_assignment": "unassigned"
+    },
+    {
+      "asv_id": "ASV9",
+      "total_reads": 2185,
+      "taxonomic_assignment": "unassigned"
+    },
+    {
+      "asv_id": "ASV10",
+      "total_reads": 2096,
+      "taxonomic_assignment": "unassigned"
+    }
+  ],
+  "phase3_complete": true
+}

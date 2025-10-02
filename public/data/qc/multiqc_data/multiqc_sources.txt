@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR29925009_1	/home/manish/sih2025/processing_claude/qc/SRR29925009_1.trim_fastqc.zip
+FastQC	all_sections	SRR29925009_2	/home/manish/sih2025/processing_claude/qc/SRR29925009_2.trim_fastqc.zip

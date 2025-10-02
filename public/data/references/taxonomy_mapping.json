@@ -1,0 +1,22 @@
+{
+  "Metazoa_ref1": {
+    "domain": "Eukaryota",
+    "kingdom": "Metazoa",
+    "confidence": 1.0
+  },
+  "Stramenopiles_ref1": {
+    "domain": "Eukaryota",
+    "kingdom": "Stramenopiles",
+    "confidence": 1.0
+  },
+  "Alveolata_ref1": {
+    "domain": "Eukaryota",
+    "kingdom": "Alveolata",
+    "confidence": 1.0
+  },
+  "Rhizaria_ref1": {
+    "domain": "Eukaryota",
+    "kingdom": "Rhizaria",
+    "confidence": 1.0
+  }
+}

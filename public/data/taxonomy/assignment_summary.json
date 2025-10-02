@@ -1,0 +1,12 @@
+{
+  "total_asvs": 211,
+  "assigned_count": 0,
+  "assignment_rate": 0.0,
+  "confidence_distribution": {
+    "high": 0,
+    "medium": 0,
+    "low": 211
+  },
+  "novelty_candidates": 211,
+  "kingdom_distribution": {}
+}

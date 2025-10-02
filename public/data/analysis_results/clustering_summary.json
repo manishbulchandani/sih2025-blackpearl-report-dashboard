@@ -1,0 +1,58 @@
+{
+  "clustering_complete": true,
+  "total_clusters": 11,
+  "noise_points": 3,
+  "top_novel_clusters": 11,
+  "cluster_summary": [
+    {
+      "cluster_id": 2,
+      "size": 8,
+      "mean_similarity": 0.30062840447035033,
+      "std_similarity": 0.0019142624321568913,
+      "novelty_candidates": 8,
+      "high_confidence_asvs": 0,
+      "assigned_asvs": 0,
+      "novelty_score": 0.6993715955296497
+    },
+    {
+      "cluster_id": 7,
+      "size": 11,
+      "mean_similarity": 0.3183102683505955,
+      "std_similarity": 0.019739797794925743,
+      "novelty_candidates": 11,
+      "high_confidence_asvs": 0,
+      "assigned_asvs": 0,
+      "novelty_score": 0.6816897316494045
+    },
+    {
+      "cluster_id": 5,
+      "size": 17,
+      "mean_similarity": 0.3192097306636577,
+      "std_similarity": 0.01880830618584349,
+      "novelty_candidates": 17,
+      "high_confidence_asvs": 0,
+      "assigned_asvs": 0,
+      "novelty_score": 0.6807902693363423
+    },
+    {
+      "cluster_id": 4,
+      "size": 5,
+      "mean_similarity": 0.329234070411878,
+      "std_similarity": 0.015884324018867777,
+      "novelty_candidates": 5,
+      "high_confidence_asvs": 0,
+      "assigned_asvs": 0,
+      "novelty_score": 0.670765929588122
+    },
+    {
+      "cluster_id": 3,
+      "size": 10,
+      "mean_similarity": 0.33791815989605645,
+      "std_similarity": 0.006447720236842609,
+      "novelty_candidates": 10,
+      "high_confidence_asvs": 0,
+      "assigned_asvs": 0,
+      "novelty_score": 0.6620818401039436
+    }
+  ]
+}
