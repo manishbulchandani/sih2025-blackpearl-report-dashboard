@@ -19,7 +19,7 @@ interface NovelCandidateExplorerProps {
 
 export const NovelCandidateExplorer: React.FC<NovelCandidateExplorerProps> = ({ 
   sequences, 
-  totalCandidates 
+  // totalCandidates 
 }) => {
   const [sortBy, setSortBy] = useState<'reads' | 'similarity' | 'gc_content'>('reads');
   const [searchTerm, setSearchTerm] = useState('');

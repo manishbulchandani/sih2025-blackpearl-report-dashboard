@@ -8,7 +8,6 @@ import {
   Target,
   GitBranch,
   FileText,
-  Check,
   ChevronRight,
 } from "lucide-react";
 

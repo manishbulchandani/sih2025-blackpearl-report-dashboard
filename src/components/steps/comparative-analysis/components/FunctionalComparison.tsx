@@ -37,56 +37,56 @@ export const FunctionalComparison: React.FC<FunctionalComparisonProps> = ({ data
     { 
       pathway: 'Glycolysis/Gluconeogenesis', 
       type: 'metabolism',
-      clusters: data.unique_asvs_per_cluster.map((_, i) => Math.floor(Math.random() * 50) + 10),
+      clusters: data.unique_asvs_per_cluster.map((_) => Math.floor(Math.random() * 50) + 10),
       fold_change: 2.4,
       significance: 'High'
     },
     { 
       pathway: 'Citrate cycle (TCA cycle)', 
       type: 'metabolism',
-      clusters: data.unique_asvs_per_cluster.map((_, i) => Math.floor(Math.random() * 40) + 15),
+      clusters: data.unique_asvs_per_cluster.map((_) => Math.floor(Math.random() * 40) + 15),
       fold_change: 1.8,
       significance: 'Medium'
     },
     { 
       pathway: 'Amino acid transport', 
       type: 'transport',
-      clusters: data.unique_asvs_per_cluster.map((_, i) => Math.floor(Math.random() * 35) + 5),
+      clusters: data.unique_asvs_per_cluster.map((_) => Math.floor(Math.random() * 35) + 5),
       fold_change: 3.1,
       significance: 'High'
     },
     { 
       pathway: 'Oxidative phosphorylation', 
       type: 'metabolism',
-      clusters: data.unique_asvs_per_cluster.map((_, i) => Math.floor(Math.random() * 45) + 8),
+      clusters: data.unique_asvs_per_cluster.map((_) => Math.floor(Math.random() * 45) + 8),
       fold_change: 1.2,
       significance: 'Low'
     },
     { 
       pathway: 'Cell wall biogenesis', 
       type: 'structure',
-      clusters: data.unique_asvs_per_cluster.map((_, i) => Math.floor(Math.random() * 30) + 12),
+      clusters: data.unique_asvs_per_cluster.map((_) => Math.floor(Math.random() * 30) + 12),
       fold_change: 2.7,
       significance: 'High'
     },
     { 
       pathway: 'Signal transduction', 
       type: 'signaling',
-      clusters: data.unique_asvs_per_cluster.map((_, i) => Math.floor(Math.random() * 25) + 18),
+      clusters: data.unique_asvs_per_cluster.map((_) => Math.floor(Math.random() * 25) + 18),
       fold_change: 1.9,
       significance: 'Medium'
     },
     { 
       pathway: 'Fatty acid biosynthesis', 
       type: 'metabolism',
-      clusters: data.unique_asvs_per_cluster.map((_, i) => Math.floor(Math.random() * 20) + 22),
+      clusters: data.unique_asvs_per_cluster.map((_) => Math.floor(Math.random() * 20) + 22),
       fold_change: 1.5,
       significance: 'Medium'
     },
     { 
       pathway: 'DNA replication', 
       type: 'replication',
-      clusters: data.unique_asvs_per_cluster.map((_, i) => Math.floor(Math.random() * 15) + 25),
+      clusters: data.unique_asvs_per_cluster.map((_) => Math.floor(Math.random() * 15) + 25),
       fold_change: 0.8,
       significance: 'Low'
     }

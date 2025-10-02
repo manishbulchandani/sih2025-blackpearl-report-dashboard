@@ -173,7 +173,7 @@ export const SequenceAlignmentViewer: React.FC<SequenceAlignmentViewerProps> = (
                     </tr>
                   </thead>
                   <tbody className="bg-white divide-y divide-gray-200">
-                    {filteredSequences.slice(0, 10).map((sequence, index) => (
+                    {filteredSequences.slice(0, 10).map((sequence) => (
                       <tr key={sequence.id} className="hover:bg-gray-50">
                         <td className="px-6 py-4 whitespace-nowrap">
                           <div className="flex items-center">
@@ -256,7 +256,7 @@ export const SequenceAlignmentViewer: React.FC<SequenceAlignmentViewerProps> = (
                   {/* Mock alignment visualization */}
                   <div className="bg-white rounded-lg p-4 max-w-4xl mx-auto overflow-x-auto">
                     <div className="space-y-1 font-mono text-xs">
-                      {filteredSequences.slice(0, 8).map((seq, index) => (
+                      {filteredSequences.slice(0, 8).map((seq) => (
                         <div key={seq.id} className="flex items-center gap-2">
                           <div className="w-24 text-right text-gray-600 flex-shrink-0">
                             {seq.id.substring(0, 12)}

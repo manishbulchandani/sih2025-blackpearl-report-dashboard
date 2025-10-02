@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '../../../shared/Card';
-import { Badge } from '../../../shared/Badge';
-import { Grid3X3, BarChart3, Download, Filter } from 'lucide-react';
+// import { Badge } from '../../../shared/Badge';
+import { Grid3X3, BarChart3, Download } from 'lucide-react';
 
 interface ClusterData {
   asv_id: string;

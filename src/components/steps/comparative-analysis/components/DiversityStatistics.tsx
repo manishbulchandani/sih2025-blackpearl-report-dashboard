@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '../../../shared/Card';
 import { Badge } from '../../../shared/Badge';
-import { BarChart3, LineChart, Download, TrendingUp } from 'lucide-react';
+import { Download, TrendingUp } from 'lucide-react';
 
 interface ComparisonSummary {
   total_clusters: number;
