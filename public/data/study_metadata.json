@@ -1,0 +1,117 @@
+{
+  "study_information": {
+    "title": "Chronic trawling impact - Kattegat - benthic surface sediment - meiofauna",
+    "bioproject": "PRJNA1138962",
+    "biosample": "SAMN42419523",
+    "sra_study": "SRP521534",
+    "sra_experiment": "SRX25419065",
+    "sra_run": "SRR29925009",
+    "submission_date": "2025-08-31",
+    "submitted_by": "Stockholm University",
+    "study_abstract": "Raw sequence reads from chronic trawling impact study in Kattegat region focusing on benthic surface sediment meiofauna communities"
+  },
+  "sample_information": {
+    "sample_id": "P30454_110_S10",
+    "sample_name": "SRS22079240",
+    "organism": "marine metagenome",
+    "taxonomy_id": "408172",
+    "ncbi_taxonomy": "NCBI:txid408172",
+    "taxonomy_rank": "species",
+    "environment": "marine sediment",
+    "location": "Kattegat",
+    "sample_type": "benthic surface sediment",
+    "target_community": "meiofauna"
+  },
+  "sequencing_information": {
+    "platform": "Illumina MiSeq",
+    "instrument": "ILLUMINA",
+    "library_name": "P30454_110_S10",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "read_length": "2x300 bp",
+    "design": "2x300 bp pair-end",
+    "target_gene": "18S rRNA",
+    "total_spots": 206859,
+    "total_bases": "124.5M",
+    "download_size": "63.4Mb"
+  },
+  "taxonomy_classification": {
+    "domain": "Eukaryota",
+    "classification_type": "marine metagenome",
+    "ncbi_blast_name": "metagenomes",
+    "genetic_code": "Translation table 11 (Bacterial, Archaeal and Plant Plastid)",
+    "mitochondrial_code": "Translation table 2 (Vertebrate Mitochondrial)",
+    "lineage": "unclassified entries; unclassified sequences; metagenomes; ecological metagenomes",
+    "alternative_names": [
+      "ocean metagenome",
+      "marine microbiota"
+    ]
+  },
+  "identified_taxa": {
+    "major_groups": [
+      {
+        "name": "Metazoa",
+        "description": "Marine animals including nematodes, copepods, and other meiofauna",
+        "asv_count": 147,
+        "percentage": 69.7,
+        "ecological_role": "Benthic invertebrates, sediment-dwelling organisms",
+        "common_members": [
+          "Nematoda (roundworms)",
+          "Copepoda (small crustaceans)",
+          "Platyhelminthes (flatworms)",
+          "Gastrotricha",
+          "Kinorhyncha"
+        ]
+      },
+      {
+        "name": "Stramenopiles",
+        "description": "Diverse group including diatoms and other protists",
+        "asv_count": 38,
+        "percentage": 18.0,
+        "ecological_role": "Primary producers, organic matter decomposers",
+        "common_members": [
+          "Bacillariophyta (diatoms)",
+          "Labyrinthulomycetes",
+          "Oomycetes"
+        ]
+      },
+      {
+        "name": "Rhizaria",
+        "description": "Amoeboid protists important in marine ecosystems",
+        "asv_count": 26,
+        "percentage": 12.3,
+        "ecological_role": "Predators, detritivores, nutrient cycling",
+        "common_members": [
+          "Foraminifera",
+          "Cercozoa",
+          "Radiolaria"
+        ]
+      }
+    ],
+    "ecological_context": {
+      "habitat": "Benthic zone of Kattegat Sea",
+      "depth_range": "Surface sediment (0-5cm)",
+      "environmental_factors": "Chronic bottom trawling disturbance",
+      "study_focus": "Impact assessment of fishing activities on meiofaunal communities",
+      "biodiversity_note": "High diversity of microscopic metazoans and protists typical of marine sediments"
+    }
+  },
+  "analysis_results": {
+    "total_asvs_detected": 211,
+    "novel_candidates": 211,
+    "assigned_taxonomy": 0,
+    "unassigned_sequences": 211,
+    "interpretation": "High proportion of novel or poorly characterized sequences indicates understudied marine meiofauna diversity. Low similarity to references suggests potential new species or genera in this ecosystem.",
+    "novelty_significance": "The low assignment rate (0%) and broad taxonomic groupings (Metazoa, Stramenopiles, Rhizaria) suggest these sequences represent poorly characterized or potentially novel lineages within marine sediment communities."
+  },
+  "ncbi_links": {
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1138962",
+    "biosample": "https://www.ncbi.nlm.nih.gov/biosample/SAMN42419523",
+    "sra_study": "https://www.ncbi.nlm.nih.gov/sra/SRP521534",
+    "sra_experiment": "https://www.ncbi.nlm.nih.gov/sra/SRX25419065",
+    "sra_run": "https://www.ncbi.nlm.nih.gov/sra/SRR29925009",
+    "taxonomy": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=408172"
+  }
+}

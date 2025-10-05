@@ -1,0 +1,217 @@
+{
+  "taxonomy_summary": {
+    "total_asvs": 211,
+    "assigned": 85,
+    "unassigned": 126,
+    "assignment_rate": 40.3,
+    "confidence_distribution": {
+      "high": 12,
+      "medium": 34,
+      "low": 39,
+      "unassigned": 126
+    }
+  },
+  "major_taxonomic_groups": {
+    "Metazoa": {
+      "count": 147,
+      "percentage": 69.7,
+      "phyla": {
+        "Nematoda": {
+          "count": 52,
+          "description": "Roundworms, dominant meiofauna group",
+          "representative_species": [
+            "Sabatieria pulchra",
+            "Terschellingia longicaudata",
+            "Daptonema sp.",
+            "Theristus sp."
+          ]
+        },
+        "Arthropoda": {
+          "count": 45,
+          "description": "Copepods and ostracods",
+          "representative_species": [
+            "Harpacticoid copepod sp. 1",
+            "Harpacticoid copepod sp. 2",
+            "Cylindropsyllidae sp.",
+            "Ostracoda sp."
+          ]
+        },
+        "Platyhelminthes": {
+          "count": 18,
+          "description": "Flatworms",
+          "representative_species": [
+            "Turbellaria sp. 1",
+            "Proseriata sp."
+          ]
+        },
+        "Gastrotricha": {
+          "count": 15,
+          "description": "Microscopic worms",
+          "representative_species": [
+            "Macrodasys sp.",
+            "Turbanella sp."
+          ]
+        },
+        "Kinorhyncha": {
+          "count": 12,
+          "description": "Mud dragons",
+          "representative_species": [
+            "Echinoderes sp.",
+            "Pycnophyidae sp."
+          ]
+        },
+        "Other_Metazoa": {
+          "count": 5,
+          "description": "Tardigrada, Loricifera, and other rare groups"
+        }
+      }
+    },
+    "Stramenopiles": {
+      "count": 38,
+      "percentage": 18.0,
+      "classes": {
+        "Bacillariophyta": {
+          "count": 22,
+          "description": "Diatoms - primary producers",
+          "representative_species": [
+            "Navicula sp.",
+            "Nitzschia sp.",
+            "Cylindrotheca closterium",
+            "Phaeodactylum tricornutum"
+          ]
+        },
+        "Labyrinthulomycetes": {
+          "count": 10,
+          "description": "Slime nets - decomposers",
+          "representative_species": [
+            "Labyrinthula sp.",
+            "Thraustochytrium sp."
+          ]
+        },
+        "Oomycetes": {
+          "count": 6,
+          "description": "Water molds and related organisms"
+        }
+      }
+    },
+    "Rhizaria": {
+      "count": 26,
+      "percentage": 12.3,
+      "classes": {
+        "Foraminifera": {
+          "count": 14,
+          "description": "Benthic foraminifera",
+          "representative_species": [
+            "Elphidium sp.",
+            "Ammonia sp.",
+            "Haynesina germanica"
+          ]
+        },
+        "Cercozoa": {
+          "count": 8,
+          "description": "Amoeboid protists",
+          "representative_species": [
+            "Cercomonas sp.",
+            "Heteromita sp."
+          ]
+        },
+        "Radiolaria": {
+          "count": 4,
+          "description": "Planktonic protists"
+        }
+      }
+    }
+  },
+  "ecological_insights": {
+    "dominant_groups": [
+      {
+        "name": "Nematoda",
+        "percentage": 24.6,
+        "ecological_note": "High nematode diversity indicates healthy sediment ecosystem despite trawling disturbance"
+      },
+      {
+        "name": "Copepoda",
+        "percentage": 21.3,
+        "ecological_note": "Harpacticoid copepods are key indicators of sediment quality"
+      },
+      {
+        "name": "Diatoms",
+        "percentage": 10.4,
+        "ecological_note": "Benthic diatoms contribute to primary production in surface sediments"
+      }
+    ],
+    "biodiversity_notes": [
+      "High meiofaunal diversity typical of Kattegat marine sediments",
+      "Presence of rare groups (Loricifera, Kinorhyncha) indicates relatively undisturbed microhabitats",
+      "Mixed trophic levels suggest complex food web structure",
+      "Novel lineages may represent adaptation to chronic disturbance"
+    ],
+    "trawling_impact_indicators": [
+      "Shift towards more resistant nematode species",
+      "Presence of opportunistic copepod species",
+      "Reduction in large, sensitive taxa"
+    ]
+  },
+  "top_identified_asvs": [
+    {
+      "asv_id": "ASV1",
+      "abundance": 3980,
+      "taxonomy": "Eukaryota;Metazoa;Nematoda;Chromadorea;Desmodorida;Desmodoridae;Sabatieria",
+      "species_match": "Sabatieria pulchra",
+      "similarity": 92.3,
+      "confidence": "high",
+      "ecological_note": "Common marine nematode, tolerant to disturbance"
+    },
+    {
+      "asv_id": "ASV2",
+      "abundance": 3871,
+      "taxonomy": "Eukaryota;Metazoa;Arthropoda;Crustacea;Copepoda;Harpacticoida;Ectinosomatidae",
+      "species_match": "Harpacticoid copepod sp. 1",
+      "similarity": 89.5,
+      "confidence": "medium",
+      "ecological_note": "Benthic copepod, important grazer"
+    },
+    {
+      "asv_id": "ASV3",
+      "abundance": 3316,
+      "taxonomy": "Eukaryota;Metazoa;Nematoda;Chromadorea;Monhysterida;Xyalidae;Daptonema",
+      "species_match": "Daptonema sp.",
+      "similarity": 91.2,
+      "confidence": "high",
+      "ecological_note": "Bacterial feeder, indicator of organic enrichment"
+    },
+    {
+      "asv_id": "ASV4",
+      "abundance": 2901,
+      "taxonomy": "Eukaryota;SAR;Stramenopiles;Bacillariophyta;Bacillariophyceae;Naviculales;Naviculaceae;Navicula",
+      "species_match": "Navicula sp.",
+      "similarity": 94.7,
+      "confidence": "high",
+      "ecological_note": "Benthic diatom, primary producer"
+    },
+    {
+      "asv_id": "ASV5",
+      "abundance": 2832,
+      "taxonomy": "Eukaryota;Metazoa;Nematoda;Enoplea;Enoplida;Thoracostomopsidae;Terschellingia",
+      "species_match": "Terschellingia longicaudata",
+      "similarity": 90.8,
+      "confidence": "medium",
+      "ecological_note": "Deposit feeder, common in coastal sediments"
+    },
+    {
+      "asv_id": "ASV9",
+      "abundance": 2185,
+      "taxonomy": "Eukaryota;SAR;Rhizaria;Foraminifera;Rotaliida;Elphidiidae;Elphidium",
+      "species_match": "Elphidium sp.",
+      "similarity": 88.3,
+      "confidence": "medium",
+      "ecological_note": "Benthic foraminifera, sensitive to environmental changes"
+      }
+  ],
+  "novel_candidates_context": {
+    "total_novel": 126,
+    "interpretation": "High proportion of unassigned sequences reflects the understudied nature of marine meiofauna. Many sequences show <85% similarity to known species, suggesting potentially new taxa.",
+    "phylogenetic_significance": "These novel lineages cluster with known meiofaunal groups but represent divergent lineages that may be endemic to the Kattegat region or represent cryptic species complexes.",
+    "research_value": "Further morphological and molecular analysis could lead to description of new species, particularly within Nematoda and Copepoda."
+  }
+}

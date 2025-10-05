@@ -1,28 +1,37 @@
 import React from 'react';
-import { FileText, CheckCircle } from 'lucide-react';
+import { FileText } from 'lucide-react';
+import SpeciesIdentificationReport from './components/SpeciesIdentificationReport';
 
 const FinalReportMain: React.FC = () => {
   return (
-    <div className="p-8">
-      <div className="flex items-center mb-6">
-        <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4">
-          <FileText className="w-6 h-6 text-slate-600" />
-        </div>
-        <div>
-          <h1 className="text-2xl font-semibold text-gray-900">Final Report</h1>
-          <p className="text-gray-600 mt-1">Comprehensive analysis summary and conclusions</p>
+    <div className="h-full flex flex-col">
+      {/* Header */}
+      <div className="bg-white border-b border-gray-200 px-8 py-6">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center space-x-4">
+            <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center">
+              <FileText className="w-6 h-6 text-green-600" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-semibold text-gray-900">
+                Final Report - Species Identification & Ecological Assessment
+              </h1>
+              <p className="text-gray-600 mt-1">
+                Comprehensive analysis summary with identified species and ecological insights
+              </p>
+            </div>
+          </div>
+          <div className="px-3 py-1 bg-green-100 text-green-800 text-sm font-medium rounded-full">
+            Step 9 - Complete
+          </div>
         </div>
       </div>
 
-      <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-        <div className="flex items-center mb-4">
-          <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
-          <span className="text-sm font-medium text-green-600">Step 8 - Ready for Implementation</span>
+      {/* Content */}
+      <div className="flex-1 p-8 bg-gray-50 overflow-y-auto">
+        <div className="max-w-7xl mx-auto">
+          <SpeciesIdentificationReport />
         </div>
-        <p className="text-gray-700">
-          This step will include final report generation, summary visualizations, 
-          and comprehensive analysis conclusions. Content will be implemented here.
-        </p>
       </div>
     </div>
   );

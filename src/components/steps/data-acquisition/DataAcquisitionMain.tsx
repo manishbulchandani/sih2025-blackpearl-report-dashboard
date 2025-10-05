@@ -6,6 +6,7 @@ import SummaryCards from './components/SummaryCards';
 import QualityPlots from './components/QualityPlots';
 import WarningsPanel from './components/WarningsPanel';
 import FileTable from './components/FileTable';
+import StudyMetadataPanel from './components/StudyMetadataPanel';
 import StatusBadge from '../../shared/StatusBadge';
 import DownloadSection from '../../shared/DownloadSection';
 import EmbeddedReport from '../../shared/EmbeddedReport';
@@ -222,6 +223,9 @@ const DataAcquisitionMain: React.FC = () => {
       {/* Content */}
       <div className="flex-1 p-8 bg-gray-50 overflow-y-auto">
         <div className="max-w-7xl mx-auto space-y-8">
+          {/* Study Metadata Panel */}
+          <StudyMetadataPanel />
+
           {/* Status Badge */}
           <StatusBadge
             status={statusInfo.status}
