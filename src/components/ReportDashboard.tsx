@@ -14,9 +14,8 @@ const ReportDashboard: React.FC = () => {
     { id: 4, name: 'Clustering & Ecological Summary', key: 'clustering' },
     { id: 5, name: 'Diversity Analysis', key: 'diversity-analysis' },
     { id: 6, name: 'Comparative Analysis & Export', key: 'comparative-analysis' },
-    { id: 7, name: 'High-Priority Candidate Selection', key: 'candidate-selection' },
-    { id: 8, name: 'Phylogenetic Alignment & Tree Construction', key: 'phylogenetic' },
-    { id: 9, name: 'Final Report', key: 'final-report' }
+    { id: 7, name: 'Phylogenetic Alignment & Tree Construction', key: 'phylogenetic' },
+    { id:8, name: 'Final Report', key: 'final-report' }
   ];
 
   const handleStepChange = (stepId: number) => {

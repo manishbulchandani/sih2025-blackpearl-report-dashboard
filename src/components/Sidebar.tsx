@@ -9,6 +9,7 @@ import {
   GitBranch,
   FileText,
   ChevronRight,
+  ArrowLeft,
 } from "lucide-react";
 
 interface Step {
@@ -65,6 +66,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       {/* Header */}
       <div className="p-6 border-b border-slate-700">
         <div className="flex items-center space-x-3">
+          <div onClick={()=>window.open("https://sih2025-blackpearl-prototype.vercel.app/database")} className="rounded-full p-2 cursor-pointer hover:bg-black/10"><ArrowLeft/></div>
           <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
             <FileText className="w-5 h-5 text-white" />
           </div>
